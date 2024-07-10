@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     if(n<0)
         printf("ice");
-    else if(n>100)
+    else if(n>=100)
         printf("vapor");
     else
         printf("water");
